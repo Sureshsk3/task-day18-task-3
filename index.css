@@ -1,0 +1,57 @@
+.body-con{
+    margin: 20px;
+    display: grid ;
+    grid-template-columns: auto auto auto auto ;
+}
+.card-body{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+}
+.navbar-expand-lg{
+  display: flex;
+  padding-left:20px !important;
+  padding-right:50px !important ;
+}
+.main-con{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 550px;
+    background-image: url("https://queue-it.com/media/ppcp1twv/product-drop.jpg");
+}
+.order-btn{
+    height: 40px;
+
+}
+.main-con h1{
+    text-align: center;
+    position: absolute;
+    top:40%;
+    left: 40%;
+    color: rgb(196, 107, 162);
+}
+.footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .ul-list {
+    list-style-type: none;
+  }
+  .foot-copy{
+    display: flex;
+    justify-content: center;
+  }
+.p-2{
+  border-radius: 20px;
+}
+.bg-black{
+  background-color: rgb(146, 136, 136);
+}
